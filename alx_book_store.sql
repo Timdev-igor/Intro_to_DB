@@ -1,3 +1,4 @@
+
 -- Create the database if it doesn't exist
 CREATE DATABASE IF NOT EXISTS alx_book_store;
 
@@ -45,4 +46,3 @@ CREATE TABLE IF NOT EXISTS order_details (
     FOREIGN KEY (order_id) REFERENCES orders(order_id),
     FOREIGN KEY (book_id) REFERENCES books(book_id)
 );
-
